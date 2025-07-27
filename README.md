@@ -44,16 +44,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-### 🎰 Game Screen
-![Game Screen](https://github.com/user-attachments/assets/90ae60c9-b21f-42c7-9afd-8e5963457acd)
-
-### 💵 Betting Panel
-![Betting Panel](https://github.com/user-attachments/assets/7ae18d7e-8b7d-4f99-8c46-4a502688db08)
-
----
-
 ## 🧪 Environment Variables
 
 ```env
