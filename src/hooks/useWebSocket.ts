@@ -16,7 +16,7 @@ export const useWebSocket = (playerId: string | null) => {
       console.error("Player ID is required to connect to WebSocket");
       return;
     }
-    const socket = io("http://localhost:3000");
+    const socket = io(import.meta.env.VITE_API_URL);
     wsRef.current = socket;
 
     //Connect to WebSocket server

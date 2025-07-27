@@ -1,4 +1,3 @@
-
 import { Header } from "./components/Header";
 import { MultiplierDisplay } from "./components/MultiplierDisplay";
 import { BettingPanel } from "./components/BettingPanel";
@@ -22,7 +21,7 @@ function MainApp({ playerId }: Props) {
 
   return (
     <div className="min-h-screen bg-[#0f1419]">
-      <Header  WalletBalance={walletBalance} playerId={playerId} />
+      <Header WalletBalance={walletBalance} playerId={playerId} />
       <main className="max-w-6xl mx-auto px-4 py-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2">

@@ -22,7 +22,7 @@ function App() {
             className="w-full p-2 rounded bg-[#2a2a2a] border border-[#444] focus:outline-none"
             onChange={(e) => setPlayerId(e.target.value)}
           />
-          <div className="flex space-x-2">
+          <div className="flex-col space-y-2">
             {playerIds.map((id) => (
               <button
                 key={id}
